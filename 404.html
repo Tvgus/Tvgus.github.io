@@ -1,15 +1,27 @@
-<link rel="stylesheet" href="style.css">
-	     <meta charset=utf-8">
-	</head>
+<html>
+<head>
+<style>
+body, html {
+  height: 100%;
+}
 
-	<h2>404 ERROR</h2>
-	<h2>Sorry, It looks like this page doesn't exist :O</h2>
-   
-     <img src="images/404.png" alt="run" width="400" height="400">
+.bg {
+  /* Obraz użyty */
+  background-image: url("404.png");
 
+  /* Pełna wysokość */
+  height: 100%;
 
-       
-  <a href="index.html">Home</a>
-  <a href="myphones.html">My phone collection</a>
-  <a href="mypcs.html">My Computer collection</a>
-  <a href="soft.html">Software</a>
+  /* Wyśrodkuj i skaluj obraz */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<div class="bg"></div>
+
+</body>
+</html>
