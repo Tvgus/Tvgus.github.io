@@ -1,3 +1,3 @@
 
-# [https://tvga.site/](https://tvgus.github.io/ )
+# tvga.tk
 # Inspirowałem się bardzo @txpiq
